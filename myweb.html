@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2개의 메뉴를 가진 웹 페이지</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "나눔고딕", "Nanum Gothic", "돋움", Dotum, "Apple SD Gothic Neo", sans-serif;
+		}
+
+		header {
+			background-color: #1ec800;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		nav ul li {
+			margin-right: 10px;
+		}
+
+		nav ul li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+			font-size: 14px;
+			font-weight: 700;
+		}
+
+		nav ul li a:hover {
+			background-color: #fff;
+			color: #1ec800;
+		}
+
+		nav ul.second-menu {
+			margin-left: auto;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">홈</a></li>
+				<li><a href="#">카페</a></li>
+				<li><a href="#">블로그</a></li>
+				<li><a href="#">지식iN</a></li>
+				<li><a href="#">쇼핑</a></li>
+				<li><a href="#">TV</a></li>
+				<li><a href="#">뉴스</a></li>
+				<li><a href="#">지도</a></li>
+				<li><a href="#">영화</a></li>
+				<li><a href="#">급상승 검색어</a></li>
+			</ul>
+			<ul class="second-menu">
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<p>Welcome to my website with two menus!</p>
+	</main>
+</body>
+</html>
